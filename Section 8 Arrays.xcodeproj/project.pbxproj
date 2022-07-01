@@ -79,7 +79,7 @@
 		DD3060BF28654EAD00030A7F = {
 			isa = PBXGroup;
 			children = (
-				DD3060CA28654EAD00030A7F /* Section 8 Arrays */,
+				DD3060CA28654EAD00030A7F /* Section 8 Arrays Read me */,
 				DD6AF2AA286D470B006A1609 /* Sum_of_elements */,
 				DD6AF2B5286D4A70006A1609 /* max_element_array */,
 				DD3060C928654EAD00030A7F /* Products */,
@@ -96,12 +96,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD3060CA28654EAD00030A7F /* Section 8 Arrays */ = {
+		DD3060CA28654EAD00030A7F /* Section 8 Arrays Read me */ = {
 			isa = PBXGroup;
 			children = (
 				DD3060CB28654EAD00030A7F /* main.cpp */,
 			);
-			path = "Section 8 Arrays";
+			path = "Section 8 Arrays Read me";
 			sourceTree = "<group>";
 		};
 		DD6AF2AA286D470B006A1609 /* Sum_of_elements */ = {
