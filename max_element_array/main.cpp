@@ -28,7 +28,7 @@ int main() {
     
     //Ask for the array elements
     cout << "Enter " << n << " numbers with spaces in between: ";
-    //Store array
+    //Read elements into array
     for (int i = 0; i < n; ++i) {
         cin >> arr[i];
     }
@@ -38,8 +38,8 @@ int main() {
     
     //Find the max element in the array
     for (int i = 1; i < n; ++i) { // start i = 1, because comparing i = 0 with arr[0] is of no point
-        if (arr[i] > max) {
-            max = arr[i];
+        if (arr[i] > max) { //check for the max element
+            max = arr[i]; //store the max element in the var max
         }
     }
     

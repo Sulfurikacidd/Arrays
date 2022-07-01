@@ -28,12 +28,12 @@ int main() {
     //Ask for array elements.
     cout << "Enter " << n << " numbers with spaces in between: ";
     
-    //Read array.
+    //Read the elements into array.
     for(int i=0; i < n; ++i) {
         cin >> array[i];
     }
     
-    //Add all the elements of the array
+    //Add all the elements of the array and store the resuly in sum
     for(int i=0; i < n; ++i) {
         sum = sum + array[i];
     }
