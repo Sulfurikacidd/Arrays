@@ -15,7 +15,7 @@ int main() {
     //Declare program variables and array.
     const int n = 5; //size of array. it's a constant
     int arr[n] = {2,4,6,8,10};
-    int key;
+    int key; //user input
     
     //Ask for the key (element we're trying to find the position of).
     cout << "Enter key: ";
@@ -35,3 +35,9 @@ int main() {
     
     return 0;
 }
+
+
+/*
+ * Food for tought: Why dont we use i <= n as a condition in loop
+ * n is the size of the array i.e 5 but the counts starts from zero so the array ends at the index 4 !! if the condition is i <= n then the last iteration would be 5 <= 5 which is out of the scope of the array !!
+*/
